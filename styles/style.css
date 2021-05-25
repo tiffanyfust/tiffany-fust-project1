@@ -244,6 +244,10 @@ template {
   overflow: hidden;
 }
 
+html, body {
+  font-size: 125%;
+}
+
 img {
   display: block;
   width: 100%;
@@ -265,4 +269,52 @@ a {
 
 h1 {
   font-family: "Kumar One Outline", cursive;
+  font-size: 3.4rem;
+  line-height: 3.2rem;
+}
+
+h2, .logo, button {
+  font-family: "Kumar One", cursive;
+}
+
+nav, body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, .logo, button, body {
+  font-weight: normal;
+}
+
+nav, button, body {
+  font-size: 1rem;
+}
+
+button, body {
+  line-height: 1.6rem;
+}
+
+h2 {
+  font-size: 1.65rem;
+  line-height: 2.9rem;
+  letter-spacing: 2.1px;
+}
+
+.logo {
+  font-family: "Kumar One", cursive;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  letter-spacing: 1.2px;
+}
+
+nav {
+  line-height: 1.45rem;
+  letter-spacing: 1.4px;
+}
+
+button {
+  letter-spacing: 1px;
+}
+
+body {
+  letter-spacing: 2px;
 }
