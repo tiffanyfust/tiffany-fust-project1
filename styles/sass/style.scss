@@ -6,16 +6,45 @@
 
 // colors 
 
-// $bright-yellow: #F8FB05;
-// $evergreen: #065635;
-// $white: #F5F5F5;
-// $ice: #E0FDDF;
-// $black: #151514;
+$bright-yellow: #F8FB05;
+$evergreen: #065635;
+$white: #F5F5F5;
+$ice: #E0FDDF;
+$black: #151514;
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, nav, h2 {
+    text-transform: uppercase;
+}
 
 // imports
-@import "header";
 @import "normalize";
+@import "header";
+@import "materials-section";
 
+
+
+// color styles 
+
+html, body {
+    background-color: $white;
+    color: $black;
+}
+
+button {
+    background-color: $evergreen;
+    color: $white;
+}
+
+footer {
+    background-color: $black;
+    color: $white;
+}
 
 // font-styles
 
@@ -61,6 +90,7 @@ h2 {
 nav {
     line-height: 1.45rem;
     letter-spacing: 1.4px;
+    font-weight: bold;
 }
 
 button {
@@ -69,4 +99,19 @@ button {
 
 body {
     letter-spacing: 2px;
+}
+
+// button styles 
+
+button {
+    padding: 10px 20px 8px;
+    text-transform: uppercase;
+    border: none;
+}
+
+button:hover,
+button:focus {
+    background-color: $ice;
+    color: $evergreen;
+    cursor: pointer;
 }

@@ -1,1 +1,51 @@
 
+header {
+    background-image: url(../images/header-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    flex: 1;
+    margin: 140px auto 50px;
+}
+
+nav {
+    flex: 1;
+    
+
+    ul {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            margin-right: 50px;
+        }
+    }
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: $black;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline solid $bright-yellow 3px;
+}
+
+.header-img {
+    width: 53%;
+}
+

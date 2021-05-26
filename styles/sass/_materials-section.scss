@@ -1,0 +1,22 @@
+.materials {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.materials-text {
+    flex: 3;
+    margin-right: 150px;
+}
+
+.materials-text p {
+    margin: 10px auto 10px;
+}
+
+.materials-img {
+    flex: 1;
+}
+
+.materials-img img {
+    box-shadow: -15px 15px $bright-yellow;
+}

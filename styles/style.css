@@ -1,3 +1,13 @@
+.wrapper {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, nav, h2 {
+  text-transform: uppercase;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -246,6 +256,7 @@ template {
 
 html, body {
   font-size: 125%;
+  margin: 0 auto;
 }
 
 img {
@@ -265,6 +276,110 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+header {
+  background-image: url(../images/header-home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 140px auto 50px;
+}
+
+nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+nav ul {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+nav ul li {
+  margin-right: 50px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+a {
+  color: #151514;
+}
+
+a:hover,
+a:active {
+  -webkit-text-decoration: underline solid #F8FB05 3px;
+          text-decoration: underline solid #F8FB05 3px;
+}
+
+.header-img {
+  width: 53%;
+}
+
+.materials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.materials-text {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-right: 150px;
+}
+
+.materials-text p {
+  margin: 10px auto 10px;
+}
+
+.materials-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.materials-img img {
+  -webkit-box-shadow: -15px 15px #F8FB05;
+          box-shadow: -15px 15px #F8FB05;
+}
+
+html, body {
+  background-color: #F5F5F5;
+  color: #151514;
+}
+
+button {
+  background-color: #065635;
+  color: #F5F5F5;
+}
+
+footer {
+  background-color: #151514;
+  color: #F5F5F5;
 }
 
 h1 {
@@ -309,6 +424,7 @@ h2 {
 nav {
   line-height: 1.45rem;
   letter-spacing: 1.4px;
+  font-weight: bold;
 }
 
 button {
@@ -317,4 +433,17 @@ button {
 
 body {
   letter-spacing: 2px;
+}
+
+button {
+  padding: 10px 20px 8px;
+  text-transform: uppercase;
+  border: none;
+}
+
+button:hover,
+button:focus {
+  background-color: #E0FDDF;
+  color: #065635;
+  cursor: pointer;
 }
