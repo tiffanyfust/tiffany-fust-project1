@@ -1,0 +1,74 @@
+// main-content styling
+
+
+// materials section
+
+.materials {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.materials-text {
+    flex: 3;
+    margin-right: 150px;
+}
+
+.materials-text p {
+    margin: 10px auto 10px;
+}
+
+.materials-img {
+    flex: 1;
+}
+
+.materials-img img {
+    box-shadow: -15px 15px $bright-yellow;
+}
+
+
+// gallery section
+
+.gallery {
+    background-color: $ice;
+    padding: 150px;
+
+    ul {
+        display: flex;
+
+        li {
+            margin-right: 40px;
+        }
+    }
+}
+
+.gallery li:last-child {
+    margin-right: 0;
+}
+
+
+// info section 
+
+.info {
+    padding: 100px;
+
+    .row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    
+        .info-item {
+            flex: 1;
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+
+.row:last-child{
+    padding-bottom: 0;
+}
+
+.fa-circle {
+    color: $bright-yellow;
+}

@@ -367,6 +367,54 @@ a:active {
           box-shadow: -15px 15px #F8FB05;
 }
 
+.gallery {
+  background-color: #E0FDDF;
+  padding: 150px;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gallery ul li {
+  margin-right: 40px;
+}
+
+.gallery li:last-child {
+  margin-right: 0;
+}
+
+.info {
+  padding: 100px;
+}
+.info .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 50px;
+}
+.info .row .info-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.row:last-child {
+  padding-bottom: 0;
+}
+
+.fa-circle {
+  color: #F8FB05;
+}
+
 html, body {
   background-color: #F5F5F5;
   color: #151514;
