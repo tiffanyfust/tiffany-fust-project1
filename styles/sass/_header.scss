@@ -4,7 +4,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 .header {
@@ -47,5 +47,6 @@ a:active {
 
 .header-img {
     width: 53%;
+    display: block;
 }
 
