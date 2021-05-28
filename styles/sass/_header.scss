@@ -79,3 +79,15 @@ a:active {
 .blog-header nav ul {
     margin-top: 0;
 }
+
+// contact header 
+
+
+.contact-header {
+    background-image: url(../images/contact-image.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65%;
+    min-height: 65vh;
+}

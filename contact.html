@@ -11,54 +11,64 @@
     <title></title>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="contact-header">
-            <div class="logo">
-                <p>Sanctuary Helpers</p>
-            </div>
-            <nav>
-                <ul class="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="/blog.html">Blog</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h1>Get in touch</h1>
-                <form action="/submit">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email Address">
-                    <label for="comment">Comment</label>
-                    <textarea name="comment" id="comment" cols=auto rows=auto placeholder="Comment"></textarea>
-                    <input type="submit" value="submit">
-                </form>
-            </section>
-            <section>
-                <div>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-whatsapp"></i>
+    <header class="contact-header">
+        <div class="contact-wrapper">
+            <div class="navbar">
+                <div class="logo">
+                    <p>Sanctuary Helpers</p>
                 </div>
-                <div>
-                    <p>info@email.com</p>
-                </div>
-                <div>
-                    <ul>
-                        <li>123-456-7890</li>
-                        <li>123 Queens Street West.</li>
-                        <li>Unit 10</li>
-                        <li>Toronto, Ontario</li>
-                        <li>M5V2D5</li>
+                <nav>
+                    <ul class="contact-nav">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html">About</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
                     </ul>
-                </div>
-            </section>
-        </main>
-    </div>
+                </nav>
+            </div>
+            <h1>Get in touch</h1>
+        </div>
+    </header>
+    <main class="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-container">
+                <section class="message-section">
+                    <form action="/submit" class="form contact-form">
+                        <label for="name" hidden>Name</label>
+                        <input class="name label contact-input" type="text" name="name" id="name" placeholder="Name">
+                        <label for="email" hidden>Email</label>
+                        <input class="email label contact-input" type="email" name="email" id="email" placeholder="Email Address">
+                        <label for="comment" hidden>Message</label>
+                        <textarea class="comment message label contact-input" name="message" id="message" cols=auto rows=auto placeholder="Message"></textarea>
+                        <input class="submit-button" type="submit" value="submit">
+                    </form>
+                </section>
+                <section class="social-section">
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <p>info@email.com</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>123-456-7890</li>
+                            <li>123 Queens Street West.</li>
+                            <li>Unit 10</li>
+                            <li>Toronto, Ontario</li>
+                            <li>M5V2D5</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- <span class="createdBy">Created by Tiffany Fust at Juno College</span> -->
+        <span class="copyright">Copyright &copy 2021 HackerYou</span>
+    </footer>
 </body>
 </html>

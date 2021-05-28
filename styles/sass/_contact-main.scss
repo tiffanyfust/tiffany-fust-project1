@@ -1,0 +1,64 @@
+.contact-nav {
+    margin-top: 0px;
+}
+
+.contact-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+// contact form 
+
+.contact-section {
+    background-color: $ice;
+    padding-bottom: 80px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.message-section {
+    flex: 3;
+}
+
+.social-section {
+    flex: 1;
+    margin-left: 200px;
+}
+
+.contact-form {
+    padding: 50px;
+    margin-top: -150px;
+    margin-left: -50px;
+    background-color: $white;
+    box-shadow: 20px 20px $bright-yellow;
+}
+
+.form .contact-input {
+    background-color: $white;
+}
+
+.contact-form .message {
+    height: 300px;
+}
+
+
+// social section 
+
+.social-section div i {
+    padding-right: 20px;
+}
+
+.social-section div i:hover,
+.social-section div i:focus {
+    cursor: pointer;
+    color: $evergreen;
+}
+
+.social-section p {
+    padding: 20px 0;
+}
