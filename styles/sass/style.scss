@@ -18,7 +18,14 @@ $black: #151514;
     margin: 0 auto;
 }
 
-h1, nav, h2 {
+h1, 
+nav, 
+h2, 
+h3, 
+h4, 
+.logo,
+.blog-form input::placeholder,
+textarea::placeholder {
     text-transform: uppercase;
 }
 
@@ -26,17 +33,20 @@ h1, nav, h2 {
 @import "normalize";
 @import "header";
 @import "main";
+@import "blog-main";
 
 
 
 // color styles 
 
-html, body {
+html, 
+body {
     background-color: $white;
     color: $black;
 }
 
-button {
+button, 
+input.submit-button {
     background-color: $evergreen;
     color: $white;
 }
@@ -54,23 +64,37 @@ h1 {
     line-height: 3.2rem;
 }
 
-h2, .logo, button {
+h2, 
+h3,
+.logo, 
+button, 
+.comments-section h3, 
+input.submit-button {
     font-family: 'Kumar One', cursive;
 }
 
-nav, body {
+nav, 
+body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, .logo, button, body {
+h1, 
+h2, 
+.logo, 
+button, 
+body, 
+input.submit-button {
     font-weight: normal;
 }
 
-nav, button, body {
+nav, 
+button, 
+body {
     font-size: 1rem;
 }
 
-button, body {
+button, 
+body {
     line-height: 1.6rem;
 }
 
@@ -93,7 +117,8 @@ nav {
     font-weight: bold;
 }
 
-button {
+button, 
+input.submit-button {
     letter-spacing: 1px;
 }
 
@@ -103,7 +128,8 @@ body {
 
 // button styles 
 
-button {
+button, 
+input.submit-button {
     padding: 10px 20px 8px;
     text-transform: uppercase;
     border: 2px solid $evergreen;
@@ -111,7 +137,9 @@ button {
 }
 
 button:hover,
-button:focus {
+button:focus,
+input.submit-button:hover,
+input.submit-button:focus {
     background-color: $ice;
     color: $evergreen;
     cursor: pointer;

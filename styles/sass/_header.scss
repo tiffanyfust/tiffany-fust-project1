@@ -1,5 +1,8 @@
+// all headers
 
-header {
+// home header
+
+.home-header {
     background-image: url(../images/header-home.jpg);
     background-position: center;
     background-size: cover;
@@ -51,3 +54,28 @@ a:active {
     display: block;
 }
 
+
+// blog header
+
+.blog-header {
+    background-image: url(../images/blog-image.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    min-height: 60vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.blog-header nav ul {
+    margin-top: 0;
+}
