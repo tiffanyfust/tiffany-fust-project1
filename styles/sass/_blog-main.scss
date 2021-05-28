@@ -43,7 +43,7 @@
 .comments-section {
     width: 60%;
     padding-top: 40px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .comments {
@@ -70,7 +70,8 @@
 
 // form 
 
-.form {
+.blog-form,
+.contact-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;

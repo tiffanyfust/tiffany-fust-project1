@@ -36,6 +36,7 @@ textarea::placeholder,
 @import "main";
 @import "blog-main";
 @import "contact-main";
+@import "media-queries";
 
 
 
@@ -45,6 +46,7 @@ html,
 body {
     background-color: $white;
     color: $black;
+    overflow-x: hidden;
 }
 
 button, 

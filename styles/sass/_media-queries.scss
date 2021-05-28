@@ -1,0 +1,324 @@
+
+
+@media (max-width: 1350px) {
+
+// header section
+    .header-img {
+        width: 60%;
+    }
+
+    h1 {
+        margin: 40px auto 0;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin: 20px 0 150px;
+        justify-content: center;
+    }
+
+// materials section
+
+    .materials-text {
+        flex: 1;
+        margin-right: 80px;
+    }
+
+
+// gallery section
+
+    .gallery {
+        padding: 50px;
+    }
+
+// links section
+    .links-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .links-text1,
+    .links-text2 {
+        margin-bottom: 30px;
+    }
+
+    .links-img1 {
+        grid-column: 1 / 2;
+        margin-top: 0;
+    }
+
+    .links-text1 {
+        grid-column: 2 / 3;
+        margin: 50px 30px;
+    }
+
+    .links-text2 {
+        grid-column: 1 / 2;
+        margin: 50px 30px;
+    }
+
+    .links-img2 {
+        grid-column: 2 / 3;
+        margin-bottom: 0;
+    }
+
+    .links-img1>img,
+    .links-img2>img {
+        box-shadow: none;
+    }
+
+
+    // contact section
+
+    .contact-wrapper {
+        padding: 0 50px;
+    }
+
+    
+}
+
+@media (max-width: 1300px) {
+
+// links section
+
+    .links-section {
+        background-color: $ice;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .links-text1,
+    .links-text2 {
+        margin-bottom: 30px;
+    }
+
+    .links-img1 {
+        grid-column: 1 / 2;
+        margin-top: 0;
+    }
+
+    .links-text1 {
+        grid-column: 1 / 2;
+        margin: 50px 30px;
+    }
+
+    .links-text2 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        margin: 50px 30px;
+    }
+
+    .links-img2 {
+        grid-column: 1 / 2;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 1170px) {
+    // main header
+    .header-img {
+        width: 70%;
+    }
+
+    h1 {
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    nav ul {
+        margin: 20px 0 200px;
+    }
+
+
+    // Blog header 
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .blog-header nav ul {
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+
+    .blog-header h1 {
+        font-size: 3rem;
+    }
+
+
+    // blog main 
+
+    .blog-post {
+        border: none;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 100px;
+    }
+
+    .blog-img img {
+        margin-top: 0;
+        box-shadow: none;
+    }
+
+    // blog comments 
+
+    .comments-section {
+        width: 100%;
+    }
+
+    .form .blog-form {
+        margin-left: -20px;
+    }
+
+    .blog-form .name {
+        grid-column: 1 / 3;
+    }
+    
+    .blog-form .email {
+        grid-column: 1 / 3;
+    }
+
+    // blog sidebar 
+
+    
+    .blog-sidebar {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .sidebar-container>img {
+        display: none;
+    }
+    
+    .recent-posts {
+        list-style-type: disc;
+        margin-left: 30px;
+        text-align: left;
+    }
+
+    // contact navbar
+
+    .contact-header nav {
+        margin-top: 20px;
+    }
+
+    .contact-header h1 {
+        font-size: 3rem;
+    }
+
+    // contact form
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-section {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 790px) {
+
+// header section
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header nav {
+        font-size: 0.8rem;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+// materials section 
+
+    .materials {
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .materials-text {
+        margin-bottom: 50px;
+    }
+
+
+// gallery section
+
+    .gallery {
+        padding: 40px;
+
+        ul {
+            flex-direction: column;
+
+            li {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+// info section
+
+    .info .row {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .info-item {
+        margin-bottom: 30px;
+    }
+
+
+// contact 
+
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        margin-left: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9rem;
+    }
+
+    .contact-form .message {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+    nav ul,
+    .header-img {
+        display: none;
+    }
+
+    .materials-text {
+        margin-right: 0;
+    }
+    
+}
