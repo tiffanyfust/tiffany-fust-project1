@@ -348,6 +348,10 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
+i.fas {
+  display: none;
+}
+
 a {
   color: #151514;
 }
@@ -1061,6 +1065,49 @@ footer {
 
   .materials-text {
     margin-right: 0;
+  }
+
+  .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header nav i {
+    line-height: 1.6rem;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  i.fas {
+    display: inline-block;
+  }
+
+  .contact-header nav {
+    line-height: unset;
+    margin-top: 0;
   }
 }
 html,

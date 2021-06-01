@@ -320,5 +320,37 @@
     .materials-text {
         margin-right: 0;
     }
+
+    .header {
+        flex-direction: row;
+        padding-top: 30px;
+        justify-content: space-between;
+
+        nav i {
+            line-height: 1.6rem;
+        }
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    i.fas{
+        display: inline-block;
+    }
+
+    .contact-header nav {
+        line-height: unset;
+        margin-top: 0;
+    }
     
 }
