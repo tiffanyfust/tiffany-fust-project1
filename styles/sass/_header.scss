@@ -18,7 +18,7 @@
 
 h1 {
     flex: 1;
-    margin: 140px auto 50px;
+    margin: 200px auto 50px;
 }
 
 nav {
@@ -36,11 +36,7 @@ nav {
     }
 }
 
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-i.fas{
+i.fas.fa-bars{
     display: none;
 }
 

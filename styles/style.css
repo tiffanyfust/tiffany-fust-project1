@@ -323,7 +323,7 @@ h1 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin: 140px auto 50px;
+  margin: 200px auto 50px;
 }
 
 nav {
@@ -344,11 +344,7 @@ nav ul li {
   margin-right: 50px;
 }
 
-nav ul li:last-child {
-  margin-right: 0;
-}
-
-i.fas {
+i.fas.fa-bars {
   display: none;
 }
 
@@ -1068,10 +1064,10 @@ footer {
   }
 
   .header {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     padding-top: 30px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1080,9 +1076,12 @@ footer {
   .header nav i {
     line-height: 1.6rem;
   }
+  .header h1 {
+    margin-top: 50px;
+  }
 
   h1 {
-    margin: 0;
+    margin: 200px 0 0;
   }
 
   .navbar {
@@ -1096,18 +1095,47 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
 
-  i.fas {
+  i.fas.fa-bars {
     display: inline-block;
+  }
+
+  i.fas.fa-bars:hover,
+i.fas.fa-bars:focus {
+    cursor: pointer;
+  }
+
+  .contact-header {
+    margin-top: 0;
+    padding-bottom: 200px;
   }
 
   .contact-header nav {
     line-height: unset;
     margin-top: 0;
+  }
+
+  .blog-header nav ul {
+    margin-top: 0;
+  }
+
+  .blog-header h1 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hamburger {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    right: 0;
+    text-align: right;
   }
 }
 html,
