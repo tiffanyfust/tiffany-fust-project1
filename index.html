@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/6b2d823dd3.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/style.css" type="text/css">
   <title>Sanctuary Helpers</title>
 </head>
@@ -15,12 +16,13 @@
       <div class="wrapper header">
         <h1>Sanctuary Helpers</h1>
         <nav>
-          <ul>
+          <ul class="hamburger" id="hamburger">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/index.html">About</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/contact.html">Contact</a></li>
           </ul>
+          <i class="fas fa-bars"></i>
         </nav>
       </div>
       <div class="header-img">
@@ -45,9 +47,9 @@
       <section class="gallery">
         <div class="wrapper">
           <ul>
-            <li><img src="/images/gallery-image-1.jpg" alt="green dresser against white brick wall with decorative vase and two pictures on top"></li>
-            <li><img src="/images/gallery-image-2.jpg" alt="living room with orange couch and coffee table with magazine stacks on top"></li>
-            <li><img src="/images/gallery-image-3.jpg" alt="mostly decorative black chair with lightbulb hanging beside it and guitar in the background"></li>
+            <li><img class= "gallery-image" src="/images/gallery-image-1.jpg" alt="green dresser against white brick wall with decorative vase and two pictures on top"></li>
+            <li><img class= "gallery-image" src="/images/gallery-image-2.jpg" alt="living room with orange couch and coffee table with magazine stacks on top"></li>
+            <li><img class= "gallery-image" src="/images/gallery-image-3.jpg" alt="mostly decorative black chair with lightbulb hanging beside it and guitar in the background"></li>
           </ul>
         </div>
       </section>
@@ -162,5 +164,7 @@
       <!-- <span class="createdBy">Created by Tiffany Fust at Juno College</span> -->
       <span class="copyright">Copyright &copy 2021 HackerYou</span>
     </footer>
+
+    <script src="/js/script.js"></script>
 </body>
 </html>
